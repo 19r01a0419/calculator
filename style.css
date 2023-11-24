@@ -1,0 +1,33 @@
+body{
+       
+    width:350px;
+    height:390px;
+    padding:20px;
+    background-color: cadetblue;
+ }
+.parent{
+        display: grid;
+        grid-template-columns: 60px 60px 60px;
+        gap:10px 10px;
+        padding:10px;
+        background-color:white;
+       border: 1px solid black;
+    
+    }
+    .item{
+       
+        text-align: center;
+        background-color:lightgrey;
+        border-radius: 10%;
+       
+    }
+    .item p{
+        color:blue;
+    }
+    .item1{
+        display: grid;
+       grid-column-end: span 4;
+       border:2px solid white;
+       background-color: black;
+       color: white;
+    }
